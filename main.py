@@ -149,7 +149,8 @@ def main() -> None:
         )
 
         print(
-            f"Epoch: {epoch} | Loss: {train_loss:.4f} Accuracy: {train_accuracy * 100:.2f}% | Test loss: {test_loss:.4f} | Test accuracy: {test_accuracy * 100:.2f}%"
+            f"Epoch: {epoch} | Loss: {train_loss:.4f} Accuracy: {train_accuracy * 100:.2f}% |"
+            f" Test loss: {test_loss:.4f} | Test accuracy: {test_accuracy * 100:.2f}%"
         )
 
 
