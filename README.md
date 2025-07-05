@@ -48,18 +48,17 @@ git clone https://github.com/ash1rawtf/pytorch-ffnn-classification-mnist.git
 cd pytorch-ffnn-classification-mnist
 ```
 
-2. Create and activate a virtual environment:
+2. Create `.venv` and install dependencies:
 ```bash
-uv venv
+uv sync
+```
+
+3. Activate a virtual environment:
+```bash
 # On Windows
 .venv\Scripts\activate
 # On Unix or MacOS
 source .venv/bin/activate
-```
-
-3. Install dependencies:
-```bash
-uv sync
 ```
 
 4. Run the model:
